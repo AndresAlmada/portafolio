@@ -157,37 +157,41 @@ footer h3 {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    align-items: center;
+    
     width: 100%;
+    margin: 15px;
 }
 
 .img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4px;
-    width: 40%;
+    
+    width: 20%;
     
 }
 
 #fotoperfil {
-    width: 350px;
+    width: 75%;
     margin: 15px;
     border-radius: 50%;
     border: 4px solid white;
 }
 
+.img:hover #fotoperfil {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.img {overflow:hidden;}
 
 .informacion {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    width: 50%;
-    
+    width: 40%;
 }
 
 #info {
-    font-size: 40px;
+    font-size: 30px;
     margin: 15px;
 }
 
@@ -209,7 +213,6 @@ h2 {
    
     margin-bottom: 5%;
     padding: 15px;
-    border: 3px solid rgb(17, 17, 17);
 }
 
 .conocimientoss a {
@@ -383,27 +386,38 @@ h2 {
 
     .img {
         order: 2;
+        width: 35%;
+        margin: 5px;
     }
+
     #fotoperfil {
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 70%;
     }
 
     .informacion {
-        text-align: center; 
-    } 
-
-
-    #conocimientos {
-        font-size: 150%;
+        width: 95%;
         text-align: center;
     }
 
-    /* .conocimientoss
-    {
+    #info {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    #conocimientos {
+        font-size: 30px;
+        text-align: center;
         width: 100%;
-        margin: 0;
-        padding-bottom: 30px;
-    } */
+        margin: auto;
+    }
+
+    .conocimientoss a {
+        font-size: 70%;
+    }
 
     .logo1 {
         width: 25%;
@@ -418,20 +432,12 @@ h2 {
     }
 
     .nav-footer {
-        display:flex;
-        justify-content: flex-start;
+        display:none;
     }
 
-    .nav-footer a {
+    .redes {
         display: flex;
         flex-direction: column;
     }
-   
-    .nav-footer nav {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
     
 }
