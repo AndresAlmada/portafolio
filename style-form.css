@@ -1,0 +1,122 @@
+.formulario {
+    display: flex;
+    /* border: 3px solid rgb(199, 0, 0); */
+    font-weight:bolder;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    height: 25px;
+    background-color: rgb(231, 230, 230);
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);  
+}
+
+.empresa-y-cuit  {
+    display: flex;
+    justify-content: space-around;
+    /* border: 3px solid rgb(12, 53, 175); */
+    margin: 1%;
+    padding: 2%;
+}
+
+.empresaa {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.nombre-y-apellido {
+    display: flex;
+    justify-content: space-around;
+    /* border: 3px solid rgb(12, 53, 175); */
+    margin: 1%;
+    padding: 2%;
+}
+
+.nombree{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.apellidoo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+} 
+
+.dni-y-telefono {
+    display: flex;
+    justify-content: space-around;
+    /* border: 3px solid rgb(12, 53, 175); */
+    margin: 1%;
+    padding: 2%;
+}
+
+.maill {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.telefonoo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+} 
+
+.motivo-de-contacto {
+    width: 84%;
+    /* border: 3px solid rgb(39, 155, 45); */
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+} 
+
+#btn {
+    color: white;
+    background-color: rgb(8, 8, 75);
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    padding: 8px;
+    width: 30%;
+    height: auto;
+}
+
+textarea {
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: rgb(236, 236, 236);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.contactame {
+    background-color: rgb(56, 50, 43);
+    padding: 2px;
+    color: white;
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Formulario Arrepentimiento</title>
+</head>
+
+<body>
+    
+    <div class="encabezado">
+            <h1>Botón de Arrepentimiento</h1>
+            <h4>Resolución 424/2020 - Devolución de compras en internet</h4>
+            <p>Te recordamos que el producto a devolver debe estar tal cual lo recibiste. Tenés hasta 10 días de corridos desde que lo compraste y/o recibiste para realizar la devolución.</p>
+    </div>
+
+    <main>
+        
+        <section class="formulario">
+        <form action="register" method="post">    
+            <div class="empresa-y-cuit">
+                <div class="empresaa">
+                    <label for="empresa">Empresa*</label>
+                    <input type="text" name="empresa" required placeholder="Ingresá el nombre de la empresa">
+                </div>
+                <div class="cuitt">
+                    <label for="cuit">Cuit (sin espacios)*</label>
+                    <input type="number" name="cuit"required placeholder="Ingresá el CUIT de la empresa">
+                </div>
+            </div>
+
+            <div class="nombre-y-apellido">
+                <div class="nombree">
+                    <label for="nombre">Nombre*</label>
+                    <input type="text" name="nombre"required placeholder="Ingresá tu nombre">
+                </div>
+                <div class="apellidoo">
+                    <label for="apellido">Apellido*</label>
+                    <input type="text" name="apellido"required placeholder="Ingresá tu apellido">
+                </div>
+            </div>
+
+            <div class="dni-y-telefono">
+                <div class="dnii">
+                    <label for="dni">DNI*</label>
+                    <input type="number" name="dni"required placeholder="Ingresá tu DNI">
+                </div>
+                <div class="telefonoo">
+                    <label for="tel">Teléfono*</label>
+                    <input type="tel" name="tel"required placeholder="Ingresá tu teléfono">
+                </div>
+            </div>
+
+            <div class="email-y-confirmacion">
+                <div class="emaill">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email"required placeholder="Ingresá tu email">
+                </div>
+                <div class="confirmacionn">
+                    <label for="confirmacion">Confirmación de Email*</label>
+                    <input type="email" name="confirmacion"required placeholder="Reingresa te email">
+                </div>
+            </div>
+
+            <div class="numerodecompra-y-producto">
+                <div class="numerodecompraa">
+                    <label for="numerodecompra">N° de compra*</label>
+                    <input type="number" name="numerodecompra"required placeholder="Ingresá el N° de compra" maxlength="20" > 
+                </div>
+                <div class="productoo">
+                    <label for="producto">Producto*</label>
+                    <input type="text" name="producto"required placeholder="Ingresa el nombre del producto">
+                </div>
+            </div>
+
+
+            <div class="motivo-de-devolucion">
+                <label for="motivo-de-devolicionn">Motivo de devolución*</label>
+                <textarea name="motivo-de-devolicionn" id="" cols="100" rows="15"required placeholder="Ingrese brevemente el motivo de su devolución.."></textarea>
+            </div>
+
+            <div class="boton">
+                <input id="btn" type="submit" value="Cancelar compra"> 
+            </div>
+        </form>    
+        </section>
+    </main>
+</body>
+</html>
