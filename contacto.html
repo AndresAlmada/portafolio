@@ -39,64 +39,58 @@
     </header>
 
     <main>
-        <section id="seccion-contacto">
-
-            <div class="texto-breve">
-                <div class="contactame">
-                    <h4>Contáctame</h4>
-                    <p>Contacto o sugerencias para mi portafolio</p>
-                </div>
-                <section class="formulario">
-                    <form action="register" method="post">    
-                        <div class="empresa-y-cuit">
-                            <div class="empresaa">
-                                <label for="empresa">Empresa</label>
-                                <input type="text" name="empresa" placeholder="Ingresá el nombre de la empresa">
-                            </div>
-    
-                        </div>
-            
-                        <div class="nombre-y-apellido">
-                            <div class="nombree">
-                                <label for="nombre">Nombre*</label>
-                                <input type="text" name="nombre"required placeholder="Ingresá tu nombre">
-                            </div>
-                            <div class="apellidoo">
-                                <label for="apellido">Apellido*</label>
-                                <input type="text" name="apellido"required placeholder="Ingresá tu apellido">
-                            </div>
-                        </div>
-            
-                        <div class="dni-y-telefono">
-                            <div class="maill">Mail*</label>
-                                <input type="email" name="mail"required placeholder="Ingresá tu MAIL">
-                            </div>
-                            <div class="telefonoo">
-                                <label for="tel">Teléfono*</label>
-                                <input type="tel" name="tel"required placeholder="Ingresá tu teléfono">
-                            </div>
-                        </div>
-            
-                        <div class="motivo-de-contacto">
-                            <label for="motivo-de-contactoo">Motivo de contacto*</label>
-                            <textarea name="motivo-de-contactoo" id="" cols="100" rows="10"required placeholder="Cuéntame el motivo de contacto o su sugerencia.."></textarea>
-                        </div>
-            
-                        <div class="boton">
-                            <input id="btn" type="submit" value="Enviar"> 
-                        </div>
-                    </form>    
-                    </section>
-            </div>
-
-            <div class="redes-y-contacto">
-                <div><h3>Medios de contacto</h3></div>
-                <div class="redes-de-contacto">
-                    <!-- <h4>Redes de contacto</h4> -->
-                    <p><img class="iconos-de-contacto" src="./phone-flip-solid.svg" alt=""> Teléfono:  <a href="tel:+34678567876">+54 2302-489238</a> </p>
-                    <p><img class="iconos-de-contacto" src="./envelope-solid.svg" alt=""> Mail: <a href="mailto:andres.almada@hotmail.com"> andres.almada@hotmail.com</a></p>
-                    <p><img class="iconos-de-contacto" src="./street-view-solid.svg" alt=""> Dirección: Córdoba. Nueva córdoba.</p> <iframe src="https://www.google.com/maps/d/embed?mid=1g62aq0Bp8PIqQQEsxnPkON86uWU&hl=en_US&ehbc=2E312F" width="50%" height="25%"></iframe>
+        <section>
+            <div id="seccion-contacto"> 
+                <div class="texto-breve">
+                    <div class="contactame">
+                        <h4>Contáctame</h4>
+                        <p>Contacto o sugerencias para mi portafolio</p>
+                    </div>
+                    <section class="formulario">
+                        <form action="register" method="post">    
                         
+                            <div class="nombre-y-apellido">
+                                <div class="nombree">
+                                    <label for="nombre">Nombre*</label>
+                                    <input type="text" name="nombre"required placeholder="Ingresá tu nombre">
+                                </div>
+                                <div class="apellidoo">
+                                    <label for="apellido">Apellido*</label>
+                                    <input type="text" name="apellido"required placeholder="Ingresá tu apellido">
+                                </div>
+                            </div>
+                
+                            <div class="dni-y-telefono">
+                                <div class="maill">Mail*</label>
+                                    <input type="email" name="mail"required placeholder="Ingresá tu MAIL">
+                                </div>
+                                <div class="telefonoo">
+                                    <label for="tel">Teléfono</label>
+                                    <input type="tel" name="tel" placeholder="Ingresá tu teléfono">
+                                </div>
+                            </div>
+                
+                            <div class="motivo-de-contacto">
+                                <label for="motivo-de-contactoo">Motivo de consulta*</label>
+                                <textarea name="motivo-de-contactoo" id="" cols="100" rows="10"required placeholder="Ingrese el motivo de su consulta.."></textarea>
+                            </div>
+                
+                            <div class="boton">
+                                <input id="btn" type="submit" value="Enviar"> 
+                            </div>
+                        </form>    
+                        </section>
+                </div>
+
+                <div class="redes-y-contacto">
+                    <div><h3>Medios de contacto</h3></div>
+                    <div class="redes-de-contacto">
+                        <!-- <h4>Redes de contacto</h4> -->
+                        <p><img class="iconos-de-contacto" src="./phone-flip-solid.svg" alt=""> Teléfono:  <a href="tel:+34678567876">+54 2302-489238</a> </p>
+                        <p><img class="iconos-de-contacto" src="./envelope-solid.svg" alt=""> Mail: <a href="mailto:andres.almada@hotmail.com"> andres.almada@hotmail.com</a></p>
+                        <p><img class="iconos-de-contacto" src="./street-view-solid.svg" alt=""> Dirección: <span id="direction"> Córdoba. Nueva córdoba.</span></p> <iframe src="https://www.google.com/maps/d/embed?mid=1g62aq0Bp8PIqQQEsxnPkON86uWU&hl=en_US&ehbc=2E312F" width="50%" height="25%"></iframe>
+                            
+                    </div>
                 </div>
             </div>
         </section>

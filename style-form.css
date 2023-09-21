@@ -20,19 +20,6 @@ input {
     box-shadow: 1px 1px 1px rgb(0, 0, 0);  
 }
 
-.empresa-y-cuit  {
-    display: flex;
-    justify-content: space-around;
-    /* border: 3px solid rgb(12, 53, 175); */
-    margin: 1%;
-    padding: 2%;
-}
-
-.empresaa {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
 
 .nombre-y-apellido {
     display: flex;
@@ -116,7 +103,7 @@ textarea {
 }
 
 .contactame {
-    background-color: rgb(56, 50, 43);
+    background-color: rgb(41, 41, 41);
     padding: 2px;
     color: white;
 }
