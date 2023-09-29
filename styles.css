@@ -2,16 +2,13 @@
 
 body {
     background-color: black;
+    font-family: 'Oswald', sans-serif;
 }
 
 header {
     width: 100%;
 }
 
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
 
 /* main {
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 61%, rgb(82, 76, 1) 100%);
@@ -54,14 +51,37 @@ body {
 }
 
 .nav {
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
     padding: 7px;
     border: 1px solid grey;
+    background-color: rgb(32, 32, 32); */
+    
+    width: 100%;
+    height: 5em;
+    background-color: #202020;
+    box-shadow: 1px 4px 8px #3a3a3a;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5em;
 }
 
 nav a {
     color: white;
+    margin: 1em 1em;
+
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 nav a:hover {
@@ -152,6 +172,7 @@ footer h3 {
     align-items: center;
     justify-content: center;
     margin: auto;
+    align-content: center;
 }
 
 .principal {
@@ -162,7 +183,8 @@ footer h3 {
     align-items: center;
     
     width: 100%;
-    margin: 15px;
+    padding-bottom: 18%;
+    padding-top: 18%;
 }
 
 .img {
@@ -171,7 +193,6 @@ footer h3 {
     align-items: center;
     
     width: 20%;
-    
 }
 
 #fotoperfil {
@@ -179,6 +200,7 @@ footer h3 {
     margin: 15px;
     border-radius: 50%;
     border: 4px solid white;
+    box-shadow: 1px 2px 6px #e2e2e2;
 }
 
 .img:hover #fotoperfil {-webkit-transform:scale(1.1);transform:scale(1.1);}
@@ -186,15 +208,29 @@ footer h3 {
 
 .informacion {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     width: 40%;
 }
 
-#info {
+.info {
     font-size: 30px;
     margin: 15px;
+    text-align: center;
+}
+
+#name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgb(189, 170, 3);
+    text-shadow: 3px 4px rgb(58, 102, 22);
+    line-height: 0.8em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 h2 {
@@ -213,7 +249,7 @@ h2 {
     align-content: center;
     align-items: center;
    
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     padding: 15px;
 }
 
@@ -229,20 +265,13 @@ h2 {
     color: rgb(216, 196, 14);
 }
 
-.logo1 {
-    width: 17%;
-    color: white;
-    border: 2px solid white;
-}
 
-.logo2 {
-    width: 17%;
-    border: 2px solid white;
-}
 
-.logo3 {
+.logo {
     width: 17%;
     border: 2px solid white;
+    box-shadow: 2px 4px 6px #e2e2e2;
+    border-radius: 10px;
 }
 
 #logohtml {
@@ -272,12 +301,19 @@ h2 {
     justify-content: space-around;
     align-content: center;
     
+    background-color: rgb(32, 32, 32);
     /* border: 2px solid white; */
 
     height: 100%;
     width: 100%;
-    margin-top: 3%;
+    padding-bottom: 3%;
     margin-bottom: 5%;
+}
+
+#project {
+    background-color: rgb(32, 32, 32);
+    margin: 5% 0 0 0;
+    padding: 3%;
 }
 
 .proyecto1 {
@@ -290,8 +326,10 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
-    
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 2px 4px 6px #e2e2e2;
+    border-radius: 10px;
 }
 
 .imagenproyecto {
@@ -328,23 +366,27 @@ h2 {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-
 }
 
-
 .texto-breve {
-    width: 40%;
+    width: 30%;
     background-color: rgb(87, 87, 87);
     margin: 25px;
-    border: 3px solid rgba(255, 255, 255, 0.671);
+    
+    border: 2px solid white;
+    box-shadow: 2px 4px 6px #e2e2e2;
+    border-radius: 10px;
 }
 
 .redes-y-contacto {
-    width: 40%;
+    width: 30%;
     background-color: rgb(41, 41, 41);
     margin: 10px;
     color: white;
-    border: 3px solid rgba(255, 255, 255, 0.671);
+
+    border: 2px solid white;
+    box-shadow: 2px 4px 6px #e2e2e2;
+    border-radius: 10px;
 }
 
 .redes-de-contacto {
@@ -385,8 +427,13 @@ h2 {
     }
 
     .nav2 {
-        display: flex;
-        background: linear-gradient(180deg, rgb(218, 218, 218) 0%, rgba(0,0,0,1) 100%);
+        display: flex;        
+    }
+
+    .nav2 nav {
+        width: 100%;
+        margin:0 ;
+        padding: 0;
     }
 
     .principal {
